@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="radiobuttonexample.cursoandroid.com.radiobuttonexample.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/comida_preferida"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupID"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonLasanhaID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lasanha" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMacarraoID"
+            android:layout_width="394dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Macarrão" />
+
+        <RadioButton
+            android:id="@+id/radioButtonParmegianaID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Parmegiana" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonID"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Escolher"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_width="164dp"
+        android:layout_height="40dp" />
+
+</LinearLayout>
